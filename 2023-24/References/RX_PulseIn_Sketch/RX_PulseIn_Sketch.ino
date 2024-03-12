@@ -3,14 +3,14 @@
     Date: 12/25/2023
     Organization: Bengal-Bots at Louisiana State University
 
-    The purpose of this sketch is to demosntrate how to recieve and interpret pulse width 
+    The purpose of this sketch is to demonstrate how to receive and interpret pulse width 
     modulated (PWM) signals from devices that output such a signal using the "PulseIn" function within 
-    the arduino framework. 
+    the Arduino framework. 
 
-    In our case (Bengal-Bots), we intend to recieve these pusles from a RC reciever used in the past for 
-    RC planes and drones to drive and control different functionality on our 2023/2024 demonstration robot. 
+    In our case (Bengal-Bots), we intend to receive these pulses from a RC receiver used in the past for 
+    RC planes and drones to drive and control different functionalities on our 2023/2024 demonstration robot. 
 
-    The link to the full official arduino reference can be found here:
+    The link to the full official Arduino reference can be found here:
     https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/
 */
 
@@ -18,7 +18,7 @@
 
 /* 
     Each direction of the left and right joystick has its own dedicated output channel. 
-    Here, we map each to its own dedicated digitl input pin on the arduino.
+    Here, we map each to its own dedicated digital input pin on the Arduino.
 */
 
 #define rHorizontalPin 2 // RX Channel 1
